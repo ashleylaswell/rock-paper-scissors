@@ -29,7 +29,6 @@ function computerPlay(){
 console.log("The player chooses: " + playerSelection)
 
 
-
 function playRound(playerSelection, computerSelection) {
   if (playerSelection.toLowerCase() == computerSelection){
     console.log("It's a tie");
@@ -53,13 +52,10 @@ function playRound(playerSelection, computerSelection) {
     console.log("You win! Scissors beats paper.");
   }
   else {
-    console.log("Uh oh something went wrong");
+    console.log("Uh oh! Something went wrong.");
   }
   
 }
-
-
-
 
 console.log(playRound(playerSelection, computerSelection));
 }
